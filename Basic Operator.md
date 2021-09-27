@@ -1,11 +1,11 @@
-> **[The Swift Language Guide](https://jusung.gitbook.io/the-swift-language-guide/language-guide/02-basic-operators)**를 참조하여 공부한 내용을 정리했습니다. <br>
->> ###<span style="color:black">Contents
-1. [Basic Operater](#BasicOperator)<br>
-2. [Terminology](#Terminology)<br>
-2-1. [Unary Operator](#UnaryOperator)<br>
-2-2 [Binary Operator](#BinaryOperator)<br>
-2-3 [Ternery Operator](#TernaryOperator)<br>
-3. [Assignment Operator](#AssignmentOperator)<br>
+> [The Swift Language Guide](https://jusung.gitbook.io/the-swift-language-guide/language-guide/02-basic-operators)를 참조하여 공부한 내용을 정리했습니다. <br>
+>> <span style="color:black">Contents
+>>1. [Basic Operater](#BasicOperator)<br>
+>>2. [Terminology](#Terminology)<br>
+>>2-1. [Unary Operator](#UnaryOperator)<br>
+>>2-2 [Binary Operator](#BinaryOperator)<br>
+>>2-3 [Ternery Operator](#TernaryOperator)<br>
+>>3. [Assignment Operator](#AssignmentOperator)<br>
 
 # Basic Operator
 
@@ -40,8 +40,8 @@ Swift에서의 기본연산자(Basic Operator)는 **산술연산자**(`+`, `-`, 
 ## Assignment Operator
 **할당 연산자(Assignment)**는 값을 초기화 시키거나 변경합니다.
 ```swift
-let a = 5			// let : 선언시 처음 입력된 데이터만 저장 가능
-var b = 10			// var : 선언시 처음입력된 데이터 이후 추가로 데이터 저장 가능
-b = a				// a = b 는 오류 발생
+let a = 5		// let : 선언시 처음 입력된 데이터만 저장 가능
+var b = 10		// var : 선언시 처음입력된 데이터 이후 추가로 데이터 저장 가능
+b = a			// a = b 는 오류 발생
 // b 값은  5 
 ```
