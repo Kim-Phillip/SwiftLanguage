@@ -1,11 +1,11 @@
 > [The Swift Language Guide](https://jusung.gitbook.io/the-swift-language-guide/language-guide/02-basic-operators)를 참조하여 공부한 내용을 정리했습니다. <br>
 >> <span style="color:black">Contents
->>1. [Basic Operater](#BasicOperator)<br>
+>>1. [Basic Operater](#Basic-Operator)<br>
 >>2. [Terminology](#Terminology)<br>
->>2-1. [Unary Operator](#UnaryOperator)<br>
->>2-2 [Binary Operator](#BinaryOperator)<br>
->>2-3 [Ternery Operator](#TernaryOperator)<br>
->>3. [Assignment Operator](#AssignmentOperator)<br>
+>>2-1. [Unary Operator](#Unary-Operator)<br>
+>>2-2 [Binary Operator](#Binary-Operator)<br>
+>>2-3 [Ternery Operator](#Ternary-Operator)<br>
+>>3. [Assignment Operator](#Assignment-Operator)<br>
 
 # Basic Operator
 
