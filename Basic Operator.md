@@ -6,6 +6,7 @@
 >>2-2 [Binary Operator](#Binary-Operator)<br>
 >>2-3 [Ternery Operator](#Ternary-Operator)<br>
 >>3. [Assignment Operator](#Assignment-Operator)<br>
+>>4. [Arithmetic Operators](#Arithmetic-Operators)<br>
 
 # Basic Operator
 
@@ -39,9 +40,49 @@ Swift에서의 기본연산자(Basic Operator)는 **산술연산자**(`+`, `-`, 
 
 ## Assignment Operator
 **할당 연산자(Assignment)**는 값을 초기화 시키거나 변경합니다.
+
 ```swift
 let a = 5		// let : 선언시 처음 입력된 데이터만 저장 가능
 var b = 10		// var : 선언시 처음입력된 데이터 이후 추가로 데이터 저장 가능
 b = a			// a = b 는 오류 발생
 // b 값은  5 
+```
+
+여러 개의 값을 가진 튜플이면, 원소들을 여러 개의 변수나 상수로 할당할 수 있습니다.
+
+```swift
+let(x, y) = (1, 2)		// x는 1,  y는 2로 할당
+```
+
+C나 Objective-C와 다르게 Swift에서는 할당 연산자 값을 반환하지 않습니다.
+
+```swift
+if x = y { 
+	// x = y 는 값을 반환하지 않기 때문에 이 코드는 오류가 발생합니다.
+}
+```
+
+할당 연산자가 값을 반환하지 않는 이유는 동등비교연산자(==)를 사용해야 하는 곳에 할당연산자(=)가 실수로 사용되는 것을 막기 위해서 Swift에서는 지원하지 않습니다.
+
+## Arithmetic Operators
+모든 숫자 형에서 사용 가능한 4가지 **표준 사칙 연산자(Arithmetic)**를 지원합니다.
+
+* 덧셈 ( + )
+* 뺄셈 ( - )
+* 곱셉 ( * )
+* 나눗셈 ( / )
+
+```swift
+3 + 7		// 10
+4 - 2		// 2
+3 * 3		// 9
+12.0 / 3.0		// 4.0
+```
+
+C 와 Objective-C의 산술 연산자와 달리, Swift산술 연산자는 기본적으로 **값 넘침(Overflow)**를 허용하지 않습니다. 다만 `a &+ b`와 같은 **값 넘침 연산자(Overflow Operator)**를 사용하면 가능합니다.
+
+덧셈 연산자는 문자열(String) 이어붙이기도 지원합니다.
+
+```
+"hello " + "world"		// hello world 출력
 ```
